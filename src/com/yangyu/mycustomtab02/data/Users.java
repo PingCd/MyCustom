@@ -1,9 +1,9 @@
 package com.yangyu.mycustomtab02.data;
 
-public class Users {
-	private String useerid;
-	private String username;
-	private String userpasw;
+public class Users {//用户类
+	private int useerid;//用户id
+	private String username;//用户名
+	private String userpasw;//密码
 
 	public String getUsername() {
 		return username;
@@ -21,11 +21,11 @@ public class Users {
 		this.userpasw = userpasw;
 	}
 
-	public String getUseerid() {
+	public int getUseerid() {
 		return useerid;
 	}
 
-	public void setUseerid(String useerid) {
+	public void setUseerid(int useerid) {
 		this.useerid = useerid;
 	}
 }
