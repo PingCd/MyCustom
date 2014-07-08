@@ -1,6 +1,7 @@
 package com.yangyu.mycustomtab02.data;
 
 public class Users {//用户类
+	
 	private int useerid;//用户id
 	private String username;//用户名
 	private String userpasw;//密码
